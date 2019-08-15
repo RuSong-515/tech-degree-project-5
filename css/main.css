@@ -1,0 +1,81 @@
+li ul {
+  display: inline-block;
+ 
+}
+
+.container {
+  display: block;
+  width: 80%;
+  margin-right: auto;
+  margin-left:  auto;
+}
+
+.list {
+  display: grid;
+  margin-right: auto;
+  margin-left: auto;  
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto; 
+  grid-row-gap: 50px;
+  text-align: center;
+  list-style: none;
+}
+
+.searchbox{
+  display: block;
+  margin: 2rem auto;
+  width: 45%; 
+  border-radius: 5px;
+  border: solid 0.5px grey;
+}
+
+input {
+  font-size: 1rem;
+  padding: 12px;
+  color: gray;
+}
+
+.lb-dataContainer {
+  margin: 3rem auto;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5rem;
+}
+
+.lb-data {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lb-data .lb-caption {
+  font-size: 18px;
+  line-height: 2rem;
+}
+
+.lb-data .lb-close {
+  display: none;
+}
+
+.lb-data .lb-details {
+  float: none;
+  margin: 0 auto;
+}
+
+.lb-nav a.lb-next,
+.lb-nav a.lb-prev {
+  opacity: 1;
+}
+
+.lb-nav {
+  left: -20%;
+  width: 140%;
+}
+
+.lb-outerContainer {
+  background-color: none;
+}
+
+.lightbox .lb-image {
+  border: 0;
+}
+
+
