@@ -58,6 +58,8 @@ input {
 .lb-nav a.lb-next,
 .lb-nav a.lb-prev {
   opacity: 1;
+  position: absolute;
+  width: 100%;
 }
 
 
@@ -93,9 +95,11 @@ input {
   .list {
     grid-template-columns: 1fr 1fr 1fr;
   }
-  .lb-nav {
-    left: -10%;
-    width: 120%;
+  .lb-nav a.lb-next {
+    left: 75px;
+  }
+  .lb-nav a.lb-prev {
+    left: -75px;
   }
 }
 
@@ -105,10 +109,6 @@ input {
   }
   .list {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-  .lb-nav {
-    left: -20%;
-    width: 140%;
   }
 }
 
